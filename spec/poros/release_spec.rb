@@ -5,5 +5,8 @@ RSpec.describe Release do
 
   it 'attributes', :vcr do 
     expect(release.id).to eq(249504)
+    expect(release.year).to eq(1987)
+    expect(release.artist).to eq("Rick Astley")
+    expect(release.label).to eq("RCA")
   end
 end
