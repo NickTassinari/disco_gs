@@ -1,17 +1,42 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/nicholastassinari/post_tur/discogs_app/disco_gs/app/facades/release_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/nicholastassinari/post_tur/discogs_app/disco_gs/app/poros/release.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nicholastassinari/post_tur/discogs_app/disco_gs/app/services/discogs_service.rb": {
         "lines": [
           1,
           1,
-          1,
+          3,
           null,
           null,
           1,
-          1,
+          3,
           null,
-          1,
+          3,
           null,
           null,
           null
@@ -73,6 +98,6 @@
         }
       }
     },
-    "timestamp": 1715960026
+    "timestamp": 1716567267
   }
 }

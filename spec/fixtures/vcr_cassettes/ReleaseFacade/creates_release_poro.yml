@@ -1,0 +1,216 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.discogs.com/releases/249505
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.8.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 17 May 2024 15:46:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2667'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Content-Type, authorization, User-Agent, Private-Auth-Secret, Discogs-UID
+      Access-Control-Allow-Methods:
+      - HEAD,OPTIONS,GET,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Location
+      Cache-Control:
+      - public, must-revalidate
+      Content-Language:
+      - en
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Discogs-Media-Type:
+      - discogs.v2
+      X-Discogs-Ratelimit:
+      - '25'
+      X-Discogs-Ratelimit-Remaining:
+      - '25'
+      X-Discogs-Ratelimit-Used:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=gS6XMxTsMZxop44h40WKCDEy0tnQXBhOXh0SLFP.lOY-1715960775-1.0.1.1-lB2f1.wHE6o.7xnQqHS5nUvtZDIItihaLiqseGpuhEfN3ibjJTE7uZOAwi1QPKcUg1NB2V7KNOkVAGfOpchygQ;
+        path=/; expires=Fri, 17-May-24 16:16:15 GMT; domain=.discogs.com; HttpOnly;
+        Secure; SameSite=None
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 8854bd3c18707c34-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": 249505, "status": "Accepted", "year": 1993, "resource_url":
+        "https://api.discogs.com/releases/249505", "uri": "https://www.discogs.com/release/249505-The-Beloved-Sweet-Harmony",
+        "artists": [{"name": "The Beloved", "anv": "", "join": "", "role": "", "tracks":
+        "", "id": 9749, "resource_url": "https://api.discogs.com/artists/9749"}],
+        "artists_sort": "Beloved, The", "labels": [{"name": "EastWest", "catno": "YZ709",
+        "entity_type": "1", "entity_type_name": "Label", "id": 999, "resource_url":
+        "https://api.discogs.com/labels/999"}, {"name": "EastWest", "catno": "4509-91480-7",
+        "entity_type": "1", "entity_type_name": "Label", "id": 999, "resource_url":
+        "https://api.discogs.com/labels/999"}], "series": [], "companies": [{"name":
+        "Warner Music UK Ltd.", "catno": "", "entity_type": "13", "entity_type_name":
+        "Phonographic Copyright (p)", "id": 22328, "resource_url": "https://api.discogs.com/labels/22328"},
+        {"name": "Warner Music UK Ltd.", "catno": "", "entity_type": "14", "entity_type_name":
+        "Copyright (c)", "id": 22328, "resource_url": "https://api.discogs.com/labels/22328"},
+        {"name": "EMI Virgin Music Ltd.", "catno": "", "entity_type": "21", "entity_type_name":
+        "Published By", "id": 267769, "resource_url": "https://api.discogs.com/labels/267769"},
+        {"name": "Broadcrest Ltd.", "catno": "W6173", "entity_type": "30", "entity_type_name":
+        "Lacquer Cut At", "id": 811700, "resource_url": "https://api.discogs.com/labels/811700"}],
+        "formats": [{"name": "Vinyl", "qty": "1", "descriptions": ["7\"", "45 RPM",
+        "Single"]}], "data_quality": "Needs Vote", "community": {"have": 340, "want":
+        227, "rating": {"count": 25, "average": 4.48}, "submitter": {"username": "RICKJANE",
+        "resource_url": "https://api.discogs.com/users/RICKJANE"}, "contributors":
+        [{"username": "RICKJANE", "resource_url": "https://api.discogs.com/users/RICKJANE"},
+        {"username": "mjb", "resource_url": "https://api.discogs.com/users/mjb"},
+        {"username": "mal4ka", "resource_url": "https://api.discogs.com/users/mal4ka"},
+        {"username": "renegad", "resource_url": "https://api.discogs.com/users/renegad"},
+        {"username": "cbkbstudio", "resource_url": "https://api.discogs.com/users/cbkbstudio"},
+        {"username": "battledj", "resource_url": "https://api.discogs.com/users/battledj"},
+        {"username": "MrJCG", "resource_url": "https://api.discogs.com/users/MrJCG"},
+        {"username": "DiscogsUpdateBot", "resource_url": "https://api.discogs.com/users/DiscogsUpdateBot"},
+        {"username": "object.relations", "resource_url": "https://api.discogs.com/users/object.relations"},
+        {"username": "djcarbines", "resource_url": "https://api.discogs.com/users/djcarbines"},
+        {"username": "_jules", "resource_url": "https://api.discogs.com/users/_jules"},
+        {"username": "jensby01", "resource_url": "https://api.discogs.com/users/jensby01"}],
+        "data_quality": "Needs Vote", "status": "Accepted"}, "format_quantity": 1,
+        "date_added": "2004-04-30T08:10:05-07:00", "date_changed": "2019-12-28T10:45:21-08:00",
+        "num_for_sale": 6, "lowest_price": 8.86, "master_id": 10484, "master_url":
+        "https://api.discogs.com/masters/10484", "title": "Sweet Harmony", "country":
+        "UK", "released": "1993-01-11", "notes": "(P) (C) 1992.\n\nTrack A ''taken
+        from the forthcoming album \"[m=10496]\"''\n\nPlated at Broadcrest Ltd.",
+        "released_formatted": "11 Jan 1993", "identifiers": [{"type": "Barcode", "value":
+        "7 4509-91480-7 2"}, {"type": "Matrix / Runout", "value": "YZ-709-A1 -", "description":
+        "Side A Runout, Etched"}, {"type": "Matrix / Runout", "value": "YZ 709-B-1
+        - W6173 -", "description": "Side B Runout, Etched"}, {"type": "Matrix / Runout",
+        "value": "YZ-709-A1 \u2015    o", "description": "Side A, variant 2"}, {"type":
+        "Matrix / Runout", "value": "YZ 709-B-1   \u2015    W6173    I\u2015", "description":
+        "Side B, variant 2"}], "videos": [{"uri": "https://www.youtube.com/watch?v=Wfg0tW5uyug",
+        "title": "The Beloved \u200e\u2013 Sweet Harmony (Kosmas Epsilon & Zorz Northern
+        People Remix) [HD]", "description": "Label: Not On Label (The Beloved) \u200e\u2013
+        FASHION ITEM 001\nFormat: Vinyl, 12, Unofficial Release, Single Sided, White
+        Label \nCountry: UK\nReleased: 2004\nGenre: Electronic\nStyle: Progressive
+        House, Progressive Trance", "duration": 728, "embed": true}, {"uri": "https://www.youtube.com/watch?v=k6Jdja9O65A",
+        "title": "Sweet Harmony", "description": "Provided to YouTube by New State
+        Entertainment Ltd\n\nSweet Harmony \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117
+        2019 New State Music\n\nReleased on: 2019-03-08\n\nProducer: Helena Marsh\nProducer:
+        Jon Marsh\nMusic  Publisher: EMI Virgin Music Ltd.\nComposer: Helena Marsh\nComp",
+        "duration": 238, "embed": true}, {"uri": "https://www.youtube.com/watch?v=gsLu_KKNkXY",
+        "title": "Sweet Harmony (Love The Dub Mix)", "description": "Provided to YouTube
+        by New State Entertainment Ltd\n\nSweet Harmony (Love The Dub Mix) \u00b7
+        The Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased on:
+        2019-03-08\n\nProducer: Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher:
+        EMI Virgin Music Ltd.\nComposer", "duration": 315, "embed": true}, {"uri":
+        "https://www.youtube.com/watch?v=rN3gNUna3IU", "title": "Sweet Harmony (Live
+        The Dream Mix)", "description": "Provided to YouTube by New State Entertainment
+        Ltd\n\nSweet Harmony (Live The Dream Mix) \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117
+        1992 New State Music\n\nReleased on: 2019-03-08\n\nProducer: Helena Marsh\nProducer:
+        Jon Marsh\nMusic  Publisher: EMI Virgin Music Ltd.\nCompos", "duration": 436,
+        "embed": true}, {"uri": "https://www.youtube.com/watch?v=dwPAFao1EmY", "title":
+        "Sweet Harmony (Fertility Dance Mix)", "description": "Provided to YouTube
+        by New State Entertainment Ltd\n\nSweet Harmony (Fertility Dance Mix) \u00b7
+        The Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased on:
+        2019-03-08\n\nProducer: Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher:
+        EMI Virgin Music Ltd.\nCompo", "duration": 362, "embed": true}, {"uri": "https://www.youtube.com/watch?v=PqoPicupFsQ",
+        "title": "Motivation (Empathised)", "description": "Provided to YouTube by
+        New State Entertainment Ltd\n\nMotivation (Empathised) \u00b7 The Beloved\n\nMotivation\n\n\u2117
+        1992 New State Music\n\nReleased on: 2019-03-08\n\nProducer: Helena Marsh\nProducer:
+        Jon Marsh\nMusic  Publisher: Downtown Music Publishing\nComposer: Helena",
+        "duration": 405, "embed": true}, {"uri": "https://www.youtube.com/watch?v=mAf5_CdHIAU",
+        "title": "Motivation (Energised)", "description": "Provided to YouTube by
+        New State Entertainment Ltd\n\nMotivation (Energised) \u00b7 The Beloved\n\nMotivation\n\n\u2117
+        1992 New State Music\n\nReleased on: 2019-03-08\n\nProducer: Helena Marsh\nProducer:
+        Jon Marsh\nMusic  Publisher: Downtown Music Publishing\nComposer: Helena ",
+        "duration": 396, "embed": true}, {"uri": "https://www.youtube.com/watch?v=XqraHDfgxKo",
+        "title": "The Beloved - Sweet Harmony (Conscience Album Version)", "description":
+        "Released: 1992\nGenre: Electronic\nStyle: Synth-pop\n\nWritten-By \u2013
+        Helena Marsh, Jon Marsh", "duration": 304, "embed": true}, {"uri": "https://www.youtube.com/watch?v=_QJ56czbs0A",
+        "title": "Sweet Harmony (Sweet Sensation Mix)", "description": "Provided to
+        YouTube by New State Entertainment Ltd\n\nSweet Harmony (Sweet Sensation Mix)
+        \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased
+        on: 2019-03-08\n\nProducer: Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher:
+        Downtown Music Publishing\nC", "duration": 493, "embed": true}, {"uri": "https://www.youtube.com/watch?v=mQHOkSDisrQ",
+        "title": "Sweet Harmony (Bittersweet Mix)", "description": "Provided to YouTube
+        by New State Entertainment Ltd\n\nSweet Harmony (Bittersweet Mix) \u00b7 The
+        Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased on: 2019-03-08\n\nProducer:
+        Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher: Downtown Music Publishing\nCo",
+        "duration": 282, "embed": true}, {"uri": "https://www.youtube.com/watch?v=g913EJMIDvo",
+        "title": "Sweet Harmony (Come Together and Consolidate Mix)", "description":
+        "Provided to YouTube by New State Entertainment Ltd\n\nSweet Harmony (Come
+        Together and Consolidate Mix) \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117
+        1992 New State Music\n\nReleased on: 2019-03-08\n\nProducer: Helena Marsh\nProducer:
+        Jon Marsh\nMusic  Publisher: Downtown Musi", "duration": 409, "embed": true},
+        {"uri": "https://www.youtube.com/watch?v=xn5aEL4hVXk", "title": "Sweet Harmony
+        (Dub Together and Consolidate Mix)", "description": "Provided to YouTube by
+        New State Entertainment Ltd\n\nSweet Harmony (Dub Together and Consolidate
+        Mix) \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased
+        on: 2019-03-08\n\nProducer: Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher:
+        Downtown Mu", "duration": 231, "embed": true}, {"uri": "https://www.youtube.com/watch?v=NKvBzvhBxgk",
+        "title": "The Beloved   Sweet Harmony Tout DeSuite Dub", "description": "Atlantic
+        4-87361 US 1992", "duration": 403, "embed": true}, {"uri": "https://www.youtube.com/watch?v=Ifh1LI28Hjw",
+        "title": "Sweet Harmony (Sweetheart Club Mix)", "description": "Provided to
+        YouTube by New State Entertainment Ltd\n\nSweet Harmony (Sweetheart Club Mix)
+        \u00b7 The Beloved\n\nSweet Harmony\n\n\u2117 1992 New State Music\n\nReleased
+        on: 2019-03-08\n\nProducer: Helena Marsh\nProducer: Jon Marsh\nMusic  Publisher:
+        Downtown Music Publishing\nC", "duration": 489, "embed": true}], "genres":
+        ["Electronic", "Pop"], "styles": ["House"], "tracklist": [{"position": "A",
+        "type_": "track", "title": "Sweet Harmony", "extraartists": [{"name": "Helena
+        Marsh", "anv": "", "join": "", "role": "Producer", "tracks": "", "id": 321240,
+        "resource_url": "https://api.discogs.com/artists/321240"}, {"name": "Jon Marsh",
+        "anv": "", "join": "", "role": "Producer", "tracks": "", "id": 6554, "resource_url":
+        "https://api.discogs.com/artists/6554"}], "duration": "5:02"}, {"position":
+        "B", "type_": "track", "title": "Motivation (Energised)", "extraartists":
+        [{"name": "Ren Swan", "anv": "", "join": "", "role": "Engineer [Mix]", "tracks":
+        "", "id": 111550, "resource_url": "https://api.discogs.com/artists/111550"},
+        {"name": "Adam & Eve", "anv": "", "join": "", "role": "Producer, Mixed By",
+        "tracks": "", "id": 6555, "resource_url": "https://api.discogs.com/artists/6555"}],
+        "duration": "6:34"}], "extraartists": [{"name": "Bob Linney", "anv": "", "join":
+        "", "role": "Artwork", "tracks": "", "id": 584260, "resource_url": "https://api.discogs.com/artists/584260"},
+        {"name": "Dave Pemberton", "anv": "", "join": "", "role": "Engineer", "tracks":
+        "", "id": 46864, "resource_url": "https://api.discogs.com/artists/46864"},
+        {"name": "Me Company", "anv": "", "join": "", "role": "Layout", "tracks":
+        "", "id": 547352, "resource_url": "https://api.discogs.com/artists/547352"},
+        {"name": "Jon & Helena Marsh", "anv": "", "join": "", "role": "Written By",
+        "tracks": "", "id": 280964, "resource_url": "https://api.discogs.com/artists/280964"},
+        {"name": "Helena Marsh", "anv": "", "join": "", "role": "Written-By", "tracks":
+        "", "id": 321240, "resource_url": "https://api.discogs.com/artists/321240"},
+        {"name": "Jon Marsh", "anv": "", "join": "", "role": "Written-By", "tracks":
+        "", "id": 6554, "resource_url": "https://api.discogs.com/artists/6554"}],
+        "images": [{"type": "primary", "uri": "", "resource_url": "", "uri150": "",
+        "width": 560, "height": 557}, {"type": "secondary", "uri": "", "resource_url":
+        "", "uri150": "", "width": 560, "height": 562}, {"type": "secondary", "uri":
+        "", "resource_url": "", "uri150": "", "width": 590, "height": 600}, {"type":
+        "secondary", "uri": "", "resource_url": "", "uri150": "", "width": 598, "height":
+        600}], "thumb": "", "estimated_weight": 60, "blocked_from_sale": false}'
+  recorded_at: Fri, 17 May 2024 15:46:15 GMT
+recorded_with: VCR 6.2.0

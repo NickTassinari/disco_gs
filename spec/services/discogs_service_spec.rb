@@ -7,6 +7,5 @@ RSpec.describe DiscogsService do
     expect(release).to be_a(Hash)
     expect(release[:artists]).to be_an(Array)
     expect(release[:artists][0][:name]).to eq("Rick Astley")
-    # require 'pry'; binding.pry
   end
 end
