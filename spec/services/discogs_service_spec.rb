@@ -11,9 +11,8 @@ RSpec.describe DiscogsService do
   end
 
   it 'establishes conection for artist by artist id', :vcr do
-    require 'pry'; binding.pry
     expect(artist).to be_a(Hash)
-    expect(artist[:name]).to be("Nickleback")
-    
+    expect(artist[:name]).to eq("Nickelback")
+
   end
 end
