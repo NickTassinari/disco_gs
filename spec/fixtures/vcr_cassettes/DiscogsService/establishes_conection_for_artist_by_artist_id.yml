@@ -1,0 +1,104 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.discogs.com/artists/108713
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.8.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 14 Jun 2024 12:52:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '750'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Content-Type, authorization, User-Agent, Private-Auth-Secret, Discogs-UID
+      Access-Control-Allow-Methods:
+      - HEAD,OPTIONS,GET,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Location
+      Cache-Control:
+      - public, must-revalidate
+      Content-Language:
+      - en
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Discogs-Media-Type:
+      - discogs.v2
+      X-Discogs-Ratelimit:
+      - '25'
+      X-Discogs-Ratelimit-Remaining:
+      - '25'
+      X-Discogs-Ratelimit-Used:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=_9RuvLC7Yi_vKfd8zr38fjCTBow7MoE.uVtaotlTbuk-1718369530-1.0.1.1-sQ0dzp0kylMA7pOHiMffxk0TwFPFYKr0nzSsyOf3XvuolfGIfkH_R6RIJswwmIfzSSGxbxjgw5RwidpvTgWpIg;
+        path=/; expires=Fri, 14-Jun-24 13:22:10 GMT; domain=.discogs.com; HttpOnly;
+        Secure; SameSite=None
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 893a74bd897d51df-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name": "Nickelback", "id": 108713, "resource_url": "https://api.discogs.com/artists/108713",
+        "uri": "https://www.discogs.com/artist/108713-Nickelback", "releases_url":
+        "https://api.discogs.com/artists/108713/releases", "images": [{"type": "primary",
+        "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 450},
+        {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width":
+        600, "height": 337}, {"type": "secondary", "uri": "", "resource_url": "",
+        "uri150": "", "width": 600, "height": 450}, {"type": "secondary", "uri": "",
+        "resource_url": "", "uri150": "", "width": 400, "height": 343}, {"type": "secondary",
+        "uri": "", "resource_url": "", "uri150": "", "width": 600, "height": 600},
+        {"type": "secondary", "uri": "", "resource_url": "", "uri150": "", "width":
+        600, "height": 337}, {"type": "secondary", "uri": "", "resource_url": "",
+        "uri150": "", "width": 600, "height": 600}, {"type": "secondary", "uri": "",
+        "resource_url": "", "uri150": "", "width": 364, "height": 326}], "profile":
+        "Alternative rock band from Hanna, Alberta (Canada).\r\n\r\nThe band was formed
+        in 1995. The band having sold almost 50 million albums worldwide, ranking
+        as the 11th best selling music act of the 2000s, and is the 2nd best selling
+        foreign act in the U.S. behind The Beatles for the 2000''s.", "urls": ["http://www.nickelback.com/",
+        "https://www.facebook.com/Nickelback/", "https://twitter.com/Nickelback",
+        "https://www.instagram.com/nickelback/", "https://www.youtube.com/user/nickelbacktv",
+        "https://www.youtube.com/user/NickelbackVEVO", "https://en.wikipedia.org/wiki/Nickelback"],
+        "namevariations": ["Nickel Back", "Nickelbeck", "Nickleback", "\u30cb\u30c3\u30b1\u30eb\u30d0\u30c3\u30af"],
+        "members": [{"id": 270222, "name": "Chad Kroeger", "resource_url": "https://api.discogs.com/artists/270222",
+        "active": true}, {"id": 685754, "name": "Mike Kroeger", "resource_url": "https://api.discogs.com/artists/685754",
+        "active": true}, {"id": 685755, "name": "Daniel Adair", "resource_url": "https://api.discogs.com/artists/685755",
+        "active": true}, {"id": 685756, "name": "Ryan \"Vik\" Vikedal", "resource_url":
+        "https://api.discogs.com/artists/685756", "active": false}, {"id": 685757,
+        "name": "Ryan Peake", "resource_url": "https://api.discogs.com/artists/685757",
+        "active": true}, {"id": 1243097, "name": "Brandon Kroeger", "resource_url":
+        "https://api.discogs.com/artists/1243097", "active": false}], "data_quality":
+        "Needs Vote"}'
+  recorded_at: Fri, 14 Jun 2024 12:52:10 GMT
+recorded_with: VCR 6.2.0
